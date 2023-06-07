@@ -117,7 +117,7 @@ if ($mform->is_cancelled()){
 
 } else {
     
-    $templatecontext['Form_validation_error'] = 'Form submission failed';
+    $templatecontext['Form_validation_error'] = '';
 
 }
 
