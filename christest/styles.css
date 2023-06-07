@@ -1,0 +1,54 @@
+
+/**
+ * @package   local_christest
+ * @author    2023, Chrik_B
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ 
+ * File styles.css.
+ * Contains base styles for local_christest
+ * https://docs.moodle.org/dev/CSS_Coding_Style
+ */
+
+
+.local_christest-hidden {
+    display: none;
+}
+
+.local_christest form{
+    border: 1px solid #0000004f;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.local_christest form input,
+.local_christest form select{
+    width: 100% !important; /*  'w-100' bootstrap-class */
+}
+
+.local_christest form .felement[data-fieldtype="submit"]{
+    justify-content: center !important;
+}
+
+.local_christest .success-message{
+  max-width: 500px;
+  white-space: break-spaces;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+.local_christest .smtp_notice {
+  max-width: 600px;
+}
+
+@media only screen and (min-width: 599px) {
+    .local_christest form {
+      min-width: 600px;
+    }
+}
